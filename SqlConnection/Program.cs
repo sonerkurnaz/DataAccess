@@ -7,14 +7,15 @@ namespace SqlConnectionTest
     internal class Program
     {
         static string baglanticumlesi = @"Server=localhost;
-                                       Database=Northwind;
-                                       User Id=sa;
-                                       Password=123;";
+                                          Database=Northwind;
+                                          User Id=sa;
+                                          Password=123;";
         static void Main(string[] args)
         {
-            SqlBaglanti();
+            //SqlBaglanti();
             //SqlKayitEkle();
             //KayitSayisi();
+            GetShippers();
         }
         private static void GetShippers()
         {
