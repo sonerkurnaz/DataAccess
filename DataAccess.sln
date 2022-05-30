@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlConnectionTest", "SqlConnection\SqlConnectionTest.csproj", "{4867CDC4-FB0D-44A8-AA97-EA711B5A7125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlConnectionTest", "SqlConnection\SqlConnectionTest.csproj", "{4867CDC4-FB0D-44A8-AA97-EA711B5A7125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreConnection", "PostgreConnection\PostgreConnection.csproj", "{F3BA87A0-B317-4C6B-BADB-02218A9C1D60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostgreConnection", "PostgreConnection\PostgreConnection.csproj", "{F3BA87A0-B317-4C6B-BADB-02218A9C1D60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSql", "WinSql\WinSql.csproj", "{0113293E-56CE-4783-A55C-0217D8922CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinSql", "WinSql\WinSql.csproj", "{0113293E-56CE-4783-A55C-0217D8922CFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD_Operation", "CRUD_Operation\CRUD_Operation.csproj", "{784A98A1-61C3-44C2-8BB3-2FEEE25E7B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek", "Ornek\Ornek.csproj", "{AA9DF8C3-F063-48E5-8619-098823C49352}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{0113293E-56CE-4783-A55C-0217D8922CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0113293E-56CE-4783-A55C-0217D8922CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0113293E-56CE-4783-A55C-0217D8922CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784A98A1-61C3-44C2-8BB3-2FEEE25E7B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784A98A1-61C3-44C2-8BB3-2FEEE25E7B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784A98A1-61C3-44C2-8BB3-2FEEE25E7B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784A98A1-61C3-44C2-8BB3-2FEEE25E7B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9DF8C3-F063-48E5-8619-098823C49352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9DF8C3-F063-48E5-8619-098823C49352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9DF8C3-F063-48E5-8619-098823C49352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9DF8C3-F063-48E5-8619-098823C49352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
