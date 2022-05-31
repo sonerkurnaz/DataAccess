@@ -19,10 +19,14 @@ namespace CRUD_Operation.Context
                                             Database=Sample1;
                                             User Id=sa;Password=123");
         }
-        protected override void OnModeCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Category>().HasQueryFilter(p => p.Status != 
-            CRUD_Operation.Model.Abstract.Status.Passive);
+            modelBuilder.Entity<Category>().HasQueryFilter(p => p.Status != CRUD_Operation.Model.Abstract.Status.Passive);
+
+            modelBuilder.Entity<Product>().HasQueryFilter(p => p.Status != CRUD_Operation.Model.Abstract.Status.Passive);
+
+
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

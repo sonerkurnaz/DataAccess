@@ -43,13 +43,13 @@ namespace CRUD_Operation
         public void DataGridRefresh()
         {
             dataGridView1.DataSource = db.Categories
-                 .Where(p => p.Status != Model.Abstract.Status.Passive)
-                 .Select(x => new {
-                     x.Id,
-                     x.Name,
-                     x.Description,
-                     x.CreateDate
-                 }).ToList(); ;
+                .Where(p => p.Status != Model.Abstract.Status.Passive)
+                .Select(x => new {
+                    x.Id,
+                    x.Name,
+                    x.Description,
+                    x.CreateDate
+                }).ToList(); ;
         }
 
         private void Form1_Load(object sender, EventArgs e)
